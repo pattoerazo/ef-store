@@ -154,15 +154,6 @@ button.toggler-menu {
   border: none;
 }
 
-.mob-header {
-  padding: 15px;
-  display: none;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 11;
-}
-
 .toggler-menu {
   width: 40px;
   height: 40px;
@@ -191,11 +182,7 @@ button.toggler-menu {
 }
 
 @media (max-width: 767px) {
-  .mob-header {
-    display: block;
-  }
-
-  .header-left {
+   .header-left {
     transition: ease all 0.35s;
     left: -200px;
     z-index: 222;
@@ -534,14 +521,14 @@ button.toggler-menu {
 }
 
 .wrapper img {
-  width: 420px;
-  height: 330px;
+  width: 425px;
+  height: 345px;
 }
 
 @media only screen and (max-width: 500px) {
   .wrapper img {
-    width: 260px;
-    height: 165px;
+    width: 400px;
+    height: 250px;
   }
 }
 
@@ -590,7 +577,7 @@ button.toggler-menu {
 .tp-grid li {
   position: absolute;
   cursor: pointer;
-  border: 5px solid #fff;
+  border: 5px solid #198db6;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   display: none;
   overflow: hidden;
@@ -619,9 +606,9 @@ button.toggler-menu {
   color: #ffffff;
   font-size: 22px;
   line-height: 26px;
-  top: 3%;
+  top: 1%;
   width: 75%;
-  padding: 10px;
+  padding: 5px;
   font-weight: 400;
   text-align: right;
   left: -100%;
@@ -665,13 +652,13 @@ button.toggler-menu {
 .tp-d{
   position:absolute;
   background: #212529;
-  line-height: 10px;
+  line-height: 20px;
   color: #ffffff;
   font-size: 16px;
   line-height: 20px;
-  top: 80%;
-  width: 75%;
-  padding: 10px;
+  top: 86%;
+  width: 65%;
+  padding: 3px;
   font-weight: 400;
   text-align: left;
   right: -100%;
